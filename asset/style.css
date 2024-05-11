@@ -1,0 +1,142 @@
+/* clock */
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+   
+}
+.clock div {
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+}
+.clock span {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #ffffff;
+}
+/* scrollBar */
+#scroll {
+  z-index: 99;
+  position: fixed;
+  height: 2.5px;
+  background-color: #0d6efd;
+  position: fixed;
+}
+.gray {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom ContextMenu */
+ul {
+  list-style: none;
+}
+.context-menu {
+  position: absolute;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  padding: 10px 0;
+}
+.menu > li > a {
+  font: inherit;
+  border: 0;
+  padding: 10px 30px 10px 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: unset;
+  color: #000;
+  font-weight: 500;
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+}
+.menu > li > a:hover {
+  background: #f1f3f7;
+  color: #4b00ff;
+}
+.menu > li > a > i {
+  padding-right: 10px;
+}
+.menu > li.trash > a:hover {
+  color: red;
+}
+
+.switch {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(39, 38, 38);
+  position: relative;
+}
+
+.flicker {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s;
+  box-shadow: inset 4px 4px 4px rgb(255, 255, 255),
+    inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+  background-color: rgb(57, 57, 57);
+  transition: 0.3s;
+}
+
+.moon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+
+.dark .flicker {
+  transform: translateX(40px);
+}
+
+.dark > {
+  color: rgb(255, 255, 255);
+}
+.div1{
+  float: left !important;
+}

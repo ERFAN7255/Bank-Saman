@@ -1,0 +1,50 @@
+@font-face {
+    font-family:'vazir';
+    src: url(../font/Vazir.ttf) format('truetype'),
+    url(../font/Vazir.woff) format('woff');
+}
+.f {
+    font-size: 12px;
+}
+.b::before {
+    content:">";
+    font-size: 15px;
+    color: #5ac7ef;
+    margin-left: 3px;
+}
+.ph {
+    width: 100% !important;
+}
+.fo {
+    font-size: 13px;
+}
+
+.fn {
+    font-size: 17px;
+}
+.fx {
+    font-size: 14px;
+}
+.bo {
+    border-top: 0.5px solid white;
+    border-radius: 6px;
+}
+.m {
+    margin-right: 29%;
+}
+.p {
+    padding-right: 8% !important;
+    width: 100%;
+}
+.ml {
+    margin: 0 1px;
+}
+.ma {
+    margin-right: 15%;
+}
+div ul li button{
+    width: 100% !important;
+}
+.icon{
+    width: 60px !important;
+}
